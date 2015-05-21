@@ -1,0 +1,126 @@
+% This is ''sig-alternate.tex'' V2.0 May 2012
+% This file should be compiled with V2.5 of '\'sig-alternate.cls'' May 2012
+%
+% This example file demonstrates the use of the \'sig-alternate.cls'
+% V2.5 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The \'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+
+\documentclass{sig-alternate}
+\usepackage{paralist}
+\usepackage{url}
+
+%
+\def\sharedaffiliation{%
+\end{tabular}
+\begin{tabular}{c}}
+%
+\begin{document}
+%
+% --- Author Metadata here ---
+\conferenceinfo{WIPSCE}{2015 London, UK}
+\CopyrightYear{2015} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+% working title!
+\title{Introducing STEM to early years through child-led activities}
+
+% alphabetical for the time being...
+\numberofauthors{2}
+    \author{
+      \alignauthor Ana C. Calderon\\      
+      \email{acalderon@cardiffmet.ac.uk}
+%
+      \alignauthor Tom Crick\\     
+      \email{tcrick@cardiffmet.ac.uk}
+%
+      \sharedaffiliation
+      \affaddr{Department of Computing}  \\
+      \affaddr{Cardiff Metropolitan University}   \\
+      \affaddr{Cardiff, UK}
+          }
+%
+\maketitle
+
+\begin{abstract}
+There has 
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{K.3.2}{Computers \& Education}{Computer and Information Science Education}[Computer Science Education]
+\category{K.4.1}{Computers And Society}{Public Policy Issues}
+\keywords{Computer Science Education; High School; Teachers}
+
+\section{Introduction}
+There has been a surge in mobile technology for early years education (for the purposes of this work early years comprises 3-5 year olds). Several apps are constantly created to teach children specific aspects relevant to STEM, for instance pattern recognition, counting. Most STEM introducing sessions have, so far, been degined for teacher/adult-led activities (e.g. \cite{aronin2013},  \cite{abbas2014ontocog}, \cite{zanchi2013next}, \cite{blair2013learning}). We argue that an adult-led activity might be required for children unfamiliar with the particular device (Ipad, IPhone, Android, etc.) but once that is no longer an obstacle, the key to developing a desire to learn STEM subjects in the futures is best achieved through child-led activities. We also give requirements for developing software, encouraging child-led activities, teaching aspects crucial to computational thinking. 
+
+Child-led or "free play" activities \cite{bredekamp1987developmentally} consists of period in which the child is allowed freedom to choose activities that are a close match to their interests, rather than having a pre-prescribed session conducted by the adult/teacher. These have became common place in U.K. based preschools, particularly in England play has established its place in preschool learning \cite{DiChilvers}.
+
+
+
+\section{Recommendations}
+A summary of recomendations for future system is given, this is based on sociological and pegagogical research as well as considerations of human -comuter interaction and design. 
+
+\section*{Embedded Reinforcement}
+There are several potential ways of motivating early year pupils to learn, preschool teachers have specific strategies targeting the specific ages. A good comparisson of varying methods, especifically used by preschool teachers can be found in \cite{hanley2009influencing}. Reinforcement through mobile application is crucial to maitain engagement of the child in the activity - display of baloons, confetti and a short spoken "congratulations" message are good examples of this.
+\subsection*{Collaborative Desgin} 
+Child-led activites can be collaboratively shared with others in a playgroup or nursery setting, and it is important to design learning applications that encourage children to share their excitement in new discoveries amongst their peers. Hence, we recommend that these apps be developed for collaborative usage, as oppose to having sessions of individual children with individual devices, not communicating with each other. We recommend a setting in which the children are at physical proximity to each other,  either a tabletop design with several different children conducting different activities, or individual devices with apps that enable a "friend" button that children can send/receive a simple symbol, e.g. a happy face smiley so other kids can approach the child and see what they are investigating. 
+\subsection*{Help}
+Adult supervision and micromanagement of the activities should not be required, however since proficiency of ICT is variable and since children of that age are notorious for displaying frustration with ICT  usagae when incapable of achieving their goals, we suggest that a child should have the ability to grab an adult for support within a few seconds of encoutering any difficulty.
+\subsection*{Monitoring}
+We recommend that these apps have the ability to track the child's progress in elarning specific aspects of Computational thinking and that these be broadcasted to carers/teachers in an appropriate means. 
+
+\section{Examples} 
+cite BritishHCI paper, and mention other apps. 
+
+\section{Conclusion}
+
+% bib
+\bibliographystyle{abbrv}
+\bibliography{wipsce2015}
+
+
+\section*{To Do}
+
+In no particular order...
+
+\begin{itemize}
+\item Add stuff here...
+\end{itemize}
+
+\subsection*{References to use}
+\begin{itemize}
+\item
+General CAS
+citations~\cite{crick+sentance:2011,brown-et-al-sigcse2012,brown-et-al-toce2014}.
+
+\item
+Teachers, CPD and
+NoE~\cite{sentance-et-al-wipsce2012,sentance-et-al:2013,sentance-et-al:2014}.
+
+\item
+Welsh Government reports/policy:
+\begin{itemize}
+\item
+ICT Review~\cite{welshictreview:2013}
+\item
+Graham Report on STEM~\cite{STEMreview:2014}
+\item
+Donaldson Report~\cite{Donaldson:2015}
+\item
+Furlong Report~\cite{Furlong:2015}
+\end{itemize}
+
+\item
+Misc Reports
+\begin{itemize}
+\item
+Nesta report~\cite{NESTA:2015}
+
+\end{itemize}
+\end{itemize}
+
+\end{document}
