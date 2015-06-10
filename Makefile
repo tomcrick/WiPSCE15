@@ -1,4 +1,4 @@
-targets = wipsce2015.pdf
+targets = wipsce_designcompthink.pdf wipsce_earlyyearsapp.pdf
 
 all: $(targets)
 
